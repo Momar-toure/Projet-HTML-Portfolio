@@ -4,49 +4,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Accueil</title>
 </head>
 
 <body>
-    <header>
+    <header">
         <nav><a href="Accueil.html">Accueil</a></nav>
         <nav><a href="apropo.html">A propos</a></nav>
         <nav><a href="travail.html">Travail</a></nav>
         <nav><a href="cv.html">CV</a></nav>
         <nav><a href="contact.html">Contact</a></nav>
-    </header>
+        </header>
 
-    <main>
-        <h1>Bienvenue sur ma page WEB</h1>
-        <form method="post">
-            <label for="NOM">NOM :</label>
-            <input type="text" id="NOM" NOM="NOM" placeholder="Entrer votre nom">
-            <label for="PRENOM">PRENOM</label>
-            <input type="text" id="PRENOM" PRENOM="PRENOM" placeholder="Entrer votre prenom">
-            <br><br>
+        <main>
+            <h1 class="grand_titre">Bienvenue sur ma page WEB</h1>
 
-            <label for="Genre">Genre :
-                <select name="Mr/Mme" id="Mr/Mme">
-                    <option value="Mr">Mr</option>
-                    <option value="Mme">Mme</option>
-                </select>
-            </label>
+            <div class="formulaire">
+                <form method="post">
+                    <label for="NOM">NOM :</label>
+                    <input type="text" id="NOM" NOM="NOM" placeholder="Entrer votre nom">
+                    <label for="PRENOM">PRENOM</label>
+                    <input type="text" id="PRENOM" PRENOM="PRENOM" placeholder="Entrer votre prenom">
+                    <br><br>
 
-            <label for="age">Age :</label>
-            <input type="text" id="age" age="age" placeholder="Ecrivez votre age">
-            <br><br>
+                    <label for="Genre">Genre :
+                        <select name="Mr/Mme" id="Mr/Mme">
+                            <option value="Mr">Mr</option>
+                            <option value="Mme">Mme</option>
+                        </select>
+                    </label>
 
-            <textarea name="Message" id="Message" cols="50" rows="10" placeholder="Ecrivez un message"></textarea>
-            <br><br>
-            <button>Envoyer</button>
-        </form>
-    </main>
+                    <label for="age">Age :</label>
+                    <input type="text" id="age" age="age" placeholder="Ecrivez votre age">
+                    <br><br>
 
-    <footer>
-        <center>
+                    <textarea name="Message" id="Message" cols="50" rows="10"
+                        placeholder="Ecrivez un message"></textarea>
+                    <br><br>
+                    <button>Envoyer</button>
+                </form>
+
+            </div>
+
+            <div class="description">
+
+                <h2> Cette page web est dédiée à l'ensemble de ma carriere professionnelle</h2>
+                <h2> Vous pouvez naviguer sur la barre de recherche pour acceder à mes : </h2>
+                <ul>
+                    <li>A propos de moi</li>
+                    <li>Travaux</li>
+                    <li> Mon CV</li>
+                    <li>Contacts</li>
+                </ul>
+            </div>
+        </main>
+
+        <footer class="copyright">
+
             <p>Copyright 2025</p>
-        </center>
-    </footer>
+
+        </footer>
 </body>
 
 </html>

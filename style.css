@@ -1,0 +1,63 @@
+nav {
+    display: inline;
+    margin: 5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.grand_titre {
+    color: red;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.formulaire {
+    margin-top: 5%;
+}
+
+.description {
+    margin-top: 5%;
+    text-align: unset;
+    color: blue;
+}
+
+.contact {
+    text-decoration: underline;
+    color: brown;
+    font-style: initial;
+}
+
+table,th,td,tr {
+    border:solid black;
+    width: 20%;
+    height: 90px;
+}
+
+th {
+    color: brown;
+}
+
+.date {
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: unset;
+}
+
+.surligne1 {
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.surligne2 {
+    text-decoration: underline;
+}
+.copyright {
+    margin-top: 20%;
+    text-align: center;
+}
+
+footer {
+    margin-top: 15%;
+}
